@@ -1,0 +1,127 @@
+import 'package:flutter/material.dart';
+
+class Product {
+  final String image, title, description, genre;
+  final int price, size, id;
+
+  Product({
+    this.id = 0,
+    this.image = "",
+    this.title = "",
+    this.price = 0,
+    this.description = "",
+    this.size = 0,
+    this.genre = "",
+  });
+}
+
+List<Product> products = [
+  Product(
+    id: 1,
+    title: "JULIUS CAESAR",
+    price: 234,
+    size: 12,
+    description: "WILLIAM SHAKESPEARE\n*****",
+    image: "assets/images/foods/one.jpeg",
+    genre: "tragedy",
+  ),
+  Product(
+    id: 2,
+    title: "ALICE IN WONDERLAND",
+    price: 234,
+    size: 8,
+    description: "Lewis Carroll\n*****",
+    image: "assets/images/foods/two.jpg",
+    genre: "fantasy fiction",
+  ),
+  Product(
+    id: 3,
+    title: "ROBIN HOOD",
+    price: 234,
+    size: 10,
+    description: "Howard Pyle\n*****",
+    image: "assets/images/foods/three.jpeg",
+    genre: "action,adventure",
+  ),
+  Product(
+    id: 4,
+    title: "DRACULA",
+    price: 234,
+    size: 11,
+    description: "Bram stoker\n****",
+    image: "assets/images/foods/four.jpeg",
+    genre: "horror fiction",
+  ),
+  Product(
+    id: 5,
+    title: "WINGS OF FIRE",
+    price: 234,
+    size: 12,
+    description: "A.P.J Abdul Kalam\n****",
+    image: "assets/images/foods/five.jpeg",
+    genre: "autobiography",
+  ),
+  Product(
+    id: 6,
+    title: "A SONG OF ICE AND FIRE",
+    price: 234,
+    size: 12,
+    description: "George RR Martin\n*****",
+    image: "assets/images/foods/six.jpeg",
+    genre: "high fantasy",
+  ),
+  Product(
+    id: 7,
+    title: "ARABIAN NIGHT",
+    price: 234,
+    size: 12,
+    description: "Richard Burton\n****",
+    image: "assets/images/foods/seven.jpeg",
+    genre: "frame story",
+  ),
+  Product(
+    id: 8,
+    title: "THE ALCHEMIST",
+    price: 234,
+    size: 12,
+    description: "Paulo Coelho\n*****",
+    image: "assets/images/foods/eight.jpeg",
+    genre: "adventure fiction",
+  ),
+  Product(
+    id: 9,
+    title: "ATOMIC HABITS",
+    price: 234,
+    size: 12,
+    description: "James Clear\n****",
+    image: "assets/images/foods/nine.jpeg",
+    genre: "self-help",
+  ),
+  Product(
+    id: 10,
+    title: "ALADDIN AND THE MAGIC LAMP",
+    price: 234,
+    size: 12,
+    description: "arabian nights\n****",
+    image: "assets/images/foods/ten.jpg",
+    genre: "comedy,romance,adventure",
+  ),
+  Product(
+    id: 11,
+    title: "HARRY POTTER",
+    price: 234,
+    size: 12,
+    description: "J. K. Rowling\n*****",
+    image: "assets/images/foods/eleven.jpeg",
+    genre: "action,fantasy",
+  ),
+  Product(
+    id: 12,
+    title: "LOOKING FOR ALASKA",
+    price: 234,
+    size: 12,
+    description: "John Green\n****",
+    image: "assets/images/foods/twelve.jpeg",
+    genre: "young adult fiction",
+  ),
+];
